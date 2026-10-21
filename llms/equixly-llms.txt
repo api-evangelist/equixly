@@ -1,0 +1,10 @@
+# Equixly
+
+> Equixly is an autonomous offensive security platform powered by an Agentic AI Hacker that continuously penetration-tests APIs and applications to uncover real, exploitable risk before attackers do.
+
+Equixly delivers continuous, AI‑driven penetration testing focused on APIs, SPAs, and web applications. The platform discovers attack surface, simulates adversarial behaviour, validates exploitability, and provides actionable remediation guidance aligned with standards such as OWASP API Security Top 10, PCI DSS, ISO 2701, HIPAA, GDPR, DORA, and NIS2.
+
+## Platform
+
+- [Platform overview](https://equixly.com/platform/)
+- [Continuous Penetration Testing](https://equixly.com/platform/continuous-penetration-testin

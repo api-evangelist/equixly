@@ -1,7 +1,6 @@
 aid: equixly
 name: Equixly
-description: 'Equixly is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Equixly provides an agentic AI-driven offensive security platform that continuously penetrates, tests, and remediates API and application vulnerabilities. Leveraging autonomous AI agents, the service offers real‑time attack surface management, continuous penetration testing, and automated remediation across financial services, retail, healthcare, energy, and technology sectors. The platform integrates generative AI to adapt tactics, scale testing, and deliver actionable risk insights, aiming to replace manual pen‑testing with continuous, AI‑powered security operations.'
 url: https://raw.githubusercontent.com/api-evangelist/equixly/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:g2-catalog
@@ -12,12 +11,32 @@ created: '2026-10-20'
 modified: '2026-10-20'
 tags:
 - Company
-apis: []
+- Security
+- AI
+- PenetrationTesting
+- Continuous
+apis:
+- name: Equixly API
+  description: API Discovery apis: [] Attack Surface Management platform offering continuous penetration testing and remediation.
+  humanURL: https://equixly.com/platform/api-attack-surface-management
+  # No public baseURL discovered
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/equixly-domain-security.yml
 - type: Website
   url: https://equixly.com/
+- type: Blog
+  url: https://equixly.com/blog
+- type: Pricing
+  url: https://equixly.com/pricing
+- type: Support
+  url: https://equixly.com/contact-us
+- type: Documentation
+  url: https://equixly.com/platform
+- type: APIReference
+  url: https://equixly.com/platform/api-attack-surface-management
