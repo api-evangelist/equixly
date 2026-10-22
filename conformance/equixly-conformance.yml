@@ -1,0 +1,18 @@
+generated: '2026-10-21'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://equixly.com/use-cases/security-teams/
+sources:
+- https://equixly.com/use-cases/security-teams/
+- https://equixly.com/use-cases/risk-and-compliance-leaders/
+- https://equixly.com/blog/2026/04/14/the-state-of-llm-security/
+- https://equixly.com/blog/2026/04/20/how-to-build-api-security-into-your-ci-cd-pipeline-a-devsecops-playbook/
+standards:
+- id: iso-27001
+  conforms: true
+  evidence: ISO 27001 Certified
+- id: pci-dss
+  conforms: true
+  evidence: For organizations facing the EU AI Act , NIS2 , or PCI DSS requirements , Equixly generates the documented, reproducible evidence
+    that auditors expect.
+docs: https://equixly.com/use-cases/security-teams/

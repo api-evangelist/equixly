@@ -1,0 +1,4 @@
+Preferred-Languages: en, it
+Contact: security@equixly.com
+Hiring: https://www.linkedin.com/company/equixly/jobs/
+Acknowledgments: https://equixly.com/about-us/

@@ -1,31 +1,64 @@
 aid: equixly
+
 name: Equixly
-description: 'Equixly provides an agentic AI-driven offensive security platform that continuously penetrates, tests, and remediates API and application vulnerabilities. Leveraging autonomous AI agents, the service offers real‑time attack surface management, continuous penetration testing, and automated remediation across financial services, retail, healthcare, energy, and technology sectors. The platform integrates generative AI to adapt tactics, scale testing, and deliver actionable risk insights, aiming to replace manual pen‑testing with continuous, AI‑powered security operations.'
+
+image: https://equixly.com/assets/share.png
+
+description: Equixly provides an agentic AI-driven offensive security platform that continuously penetrates, tests, and remediates API and application
+  vulnerabilities. Leveraging autonomous AI agents, the service offers real‑time attack surface management, continuous penetration testing, and
+  automated remediation across financial services, retail, healthcare, energy, and technology sectors. The platform integrates generative AI to
+  adapt tactics, scale testing, and deliver actionable risk insights, aiming to replace manual pen‑testing with continuous, AI‑powered security
+  operations.
+
 url: https://raw.githubusercontent.com/api-evangelist/equixly/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-20'
+
 modified: '2026-10-20'
+
 tags:
 - Company
 - Security
 - AI
 - PenetrationTesting
 - Continuous
-apis:
-- name: Equixly API
-  description: API Discovery and Attack Surface Management platform offering continuous penetration testing and remediation.
-  humanURL: https://equixly.com/platform/api-attack-surface-management
-  # No public baseURL discovered
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/equixly-plans-pricing.yml
+- type: Conformance
+  url: conformance/equixly-conformance.yml
+- type: LLMsTxt
+  url: llms/equixly-llms.txt
+- type: SecurityTxt
+  url: well-known/equixly-app-security.txt
+- type: WellKnown
+  url: well-known/equixly-well-known.yml
+- type: Hosts
+  url: hosts/equixly-hosts.yml
+- type: Vendors
+  url: vendors/equixly-vendors.yml
+- type: Security
+  url: https://equixly.com/blog/category/security/
+- type: Newsroom
+  url: https://equixly.com/newsroom
+- type: GitHubOrganization
+  url: https://github.com/equixly
 - type: DomainSecurity
   url: security/equixly-domain-security.yml
 - type: Website
@@ -40,3 +73,31 @@ common:
   url: https://equixly.com/platform
 - type: APIReference
   url: https://equixly.com/platform/api-attack-surface-management
+- type: DeveloperPortal
+  url: https://equixly.com/platform
+- type: GettingStarted
+  url: https://equixly.com/start-pentest/
+
+apis:
+- name: Equixly API
+  description: API Discovery and Attack Surface Management platform offering continuous penetration testing and remediation.
+  humanURL: https://equixly.com/platform/api-attack-surface-management
+  aid: equixly:equixly-api
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  method: derived
+  generated: '2026-10-21'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes developer documentation but serves no machine-readable contract from it
+  evidence:
+  - url: https://equixly.com/
+    status: 200
+x-enrichment:
+  date: '2026-10-21'
+  status: enriched
+  artifacts_added: 10
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

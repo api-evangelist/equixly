@@ -1,0 +1,16 @@
+generated: '2026-10-21'
+method: none
+source:
+- https://zapier.com/apps/equixly/integrations
+- https://n8n.io/integrations/equixly/
+- https://composio.dev/toolkits/equixly
+- https://monid.ai/tools/equixly
+checked:
+- https://composio.dev/toolkits/equixly
+- https://monid.ai/tools/equixly
+- https://n8n.io/integrations/equixly/
+- https://zapier.com/apps/equixly/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

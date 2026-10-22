@@ -1,0 +1,29 @@
+generated: '2026-10-21'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://equixly.com/pricing/
+sources:
+- https://equixly.com/pricing/
+name: Equixly pricing
+audience: business-product
+pricing_basis: per-call
+plans:
+- name: Penetration Test
+  price_text: €4,999 per test
+  price: 4999
+  description: A rapid penetration test with the same scope of a manual test.
+  features:
+  - Results in 2 days
+  - Blackbox and Greybox Testing
+  - Full Audit report
+  - Threat Remediation guidance
+- name: Equixly Platform
+  price_text: Custom
+  description: Continuous penetration testing for always‑on risk assurance.
+  features:
+  - Unlimited penetration tests
+  - Full access to the Equixly platform
+  - Request/Response Details
+  - Endpoint Dependency Mapping
+  - Threat Remediation guidance
+docs: https://equixly.com/pricing/
