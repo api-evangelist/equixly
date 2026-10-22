@@ -17,7 +17,7 @@ tags:
 - Continuous
 apis:
 - name: Equixly API
-  description: API Discovery apis: [] Attack Surface Management platform offering continuous penetration testing and remediation.
+  description: API Discovery and Attack Surface Management platform offering continuous penetration testing and remediation.
   humanURL: https://equixly.com/platform/api-attack-surface-management
   # No public baseURL discovered
 maintainers:
